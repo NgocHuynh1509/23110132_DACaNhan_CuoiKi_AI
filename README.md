@@ -234,6 +234,7 @@ AC3 (Arc Consistency)
 Ưu điểm: Duy trì tính nhất quán cung, phát hiện mâu thuẫn sớm.   
 Nhược điểm: Chi phí kiểm tra cao hơn → thời gian thực thi lớn (0.0016s).  
 Hiệu suất: Mở rộng ít nút như FWD nhưng mất nhiều thời gian hơn do phải cập nhật quan hệ giữa các biến.
+
 ---
 
 
