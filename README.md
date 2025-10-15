@@ -246,4 +246,4 @@ Giúp người dùng đưa ra lựa chọn đúng đắn hơn khi áp dụng và
 ---
 ## Link github
 
-https://github.com/NgocHuynh1509/23110132_-ACaNhan_CuoiKi_AI
+https://github.com/NgocHuynh1509/23110132_DACaNhan_CuoiKi_AI
