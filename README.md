@@ -25,10 +25,10 @@ Trạng thái mục tiêu (Goal State): Là trạng thái mục tiêu, được 
 Lời giải (Solution): Một chuỗi các hành động (di chuyển) từ trạng thái ban đầu dẫn đến trạng thái mục tiêu.  
 Hình ảnh minh hoạ:  
 BFS
-![BFS](./gif/bfs.gif) 
+![BFS](./Gif/bfs.gif) 
 
 DFS:  
-![DFS](./gif/dfs.gif) 
+![DFS](./Gif/dfs.gif) 
 
 DLS:  
 ![DLS](./gif/dls.gif)  
