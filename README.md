@@ -33,7 +33,7 @@ DFS:
 ![DFS](./Gif/dfs.gif) 
 
 DLS:  
-![DLS](./Gif/dls.gif)  
+![DLS](./Gif/DLS.gif)  
 
 IDS:
 ![IDS](./Gif/ids.gif)
