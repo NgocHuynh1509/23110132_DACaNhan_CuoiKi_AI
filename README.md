@@ -9,9 +9,11 @@ MSSV: 23110132
 ---
 
 ## Mục tiêu
+
 Mô phỏng bàn cờ 8x8 bao gồm 8 con xe, sử dụng các thật toán tìm kiếm khác nhau của môn học Trí Tuệ Nhân Tạo để đặt các quân xe đúng các quy tắc (8 quân xe không quân nào ăn nhau), 
 đồng thời so sánh hiệu quả của các thuật toán khác nhau trong môn học này. Ứng dụng cung cấp giao diện để người dùng có thể quan sát trạng thái ban đầu, trạng thái mục tiêu, 
 trạng thái hiện tại, xem qu trình từng bước của mỗi thuật toán và so sánh giữa các thuật toán.
+
 ---
 ## Nội dung
 ### 1. Các thuật toán tìm kiếm không có thông tin
@@ -236,5 +238,12 @@ Nhược điểm: Chi phí kiểm tra cao hơn → thời gian thực thi lớn 
 Hiệu suất: Mở rộng ít nút như FWD nhưng mất nhiều thời gian hơn do phải cập nhật quan hệ giữa các biến.
 
 ---
+## Kết luận
 
+Đồ án giúp hiểu rõ hơn cách vận hành của thuật toán cũng như ưu nhược điểm của thuật toán. 
+Giúp người dùng đưa ra lựa chọn đúng đắn hơn khi áp dụng vào thực tiễn
 
+---
+## Link github
+
+https://github.com/NgocHuynh1509/23110132_-ACaNhan_CuoiKi_AI
