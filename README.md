@@ -31,16 +31,16 @@ DFS:
 ![DFS](./Gif/dfs.gif) 
 
 DLS:  
-![DLS](./gif/dls.gif)  
+![DLS](./Gif/dls.gif)  
 
 IDS:
-![IDS](./gif/ids.gif)
+![IDS](./Gif/ids.gif)
 
 UCS:  
-![UCS](./gif/ucs.gif)  
+![UCS](./Gif/ucs.gif)  
 
 Biểu đồ so sánh hiệu suất:  
-![uninform](./gif/uninform.jpg)  
+![uninform](./Gif/uninform.jpg)  
 
 Phân tích ưu điểm, nhược điểm và hiệu suất:  
 Biểu đồ cho thấy hiệu suất của năm thuật toán tìm kiếm: BFS, DFS, DLS, IDS và UCS thông qua hai tiêu chí thời gian thực thi và số nút được mở rộng.
@@ -50,7 +50,7 @@ DFS (Depth-First Search) cho kết quả nhanh hơn BFS nhưng không đảm b�
 IDS (Iterative Deepening Search) kết hợp ưu điểm của BFS và DFS, đảm bảo tìm nghiệm tối ưu nhưng phải lặp lại nhiều lần, khiến số nút mở rộng lớn nhất.
 Tổng thể, UCS là thuật toán hiệu quả và tối ưu nhất trong thử nghiệm này, vừa đảm bảo chất lượng nghiệm vừa tiết kiệm thời gian và tài nguyên tính toán.   
 
-BFS (Breadth-First Search)  
+BFS (Breadth-First Search) 
 Ưu điểm: Tìm được nghiệm tối ưu về độ sâu (đường đi ngắn nhất nếu chi phí các cạnh bằng nhau). Đảm bảo tìm thấy nghiệm nếu tồn tại.  
 Nhược điểm: Tốn bộ nhớ và thời gian, vì phải lưu trữ và mở rộng tất cả các nút ở từng mức.  
 Hiệu suất:
@@ -91,13 +91,13 @@ Hiệu suất: Thời gian: 0.0360s (nhanh nhất). Nút mở rộng: 2,143 (ít
 Khái niệm bài toán tìm kiếm và lời giải: tương tự như các thuật toán tìm kiếm không có thông tin nhưng vận dụng thêm
 hàm Heuristic để ước lượng 'độ gần' từ trạng thái hiên tại tới trạng thái mục tiêu và hàm tính chi phí từ trạng thái ban ầu đến trạng thái hiện tại.  
 Greedy Best - First Search: mở rộng trạng thái dựa vào giá trị heuristic thấp nhất
-![GS](./gif/gs.gif)  
+![GS](./Gif/gs.gif)  
 
 A* Search: mở rộng trạng thái dựa vào chi phí từ trạng thái ban đầu đến trạng thái hiện tại g(s) cộng với ước lượng chi phí h(s)
-![a](./gif/a_star.gif)
+![a](./Gif/a_star.gif)
 
 Biểu đồ so sánh hiệu suất:  
-![inform](./gif/inform.jpg)  
+![inform](./Gif/inform.jpg)  
 
 Phân tích ưu điểm, nhược điểm và hiệu suất:  
 Greedy Search (GS) đạt hiệu suất cao nhất về tốc độ, thích hợp cho bài toán cần tìm lời giải nhanh.
@@ -124,20 +124,20 @@ Hiệu suất:
 Khái niệm bài toán tìm kiếm và lời giải: Hoạt động trên một không gian trạng thái duy nhất, di chuyển từ trạng thái hiện tại
 sang trạng thái tốt hơn theo một tiêu chí nào đó.  
 Hill_climbing: Di chuyển sang trạng thái lân cận tốt hơn trạng thái hiện tại.  
-![hill](./gif/hill.gif)  
+![hill](./Gif/hill.gif)  
 
 Simulating Annealing: Di chuyển sang trạng thái lân cận tốt hơn, đôi khi chấp nhận trạng thái kém để thoát khỏi cực trị địa phương.  
-![sa](./gif/sa.gif)  
+![sa](./Gif/sa.gif)  
 
 Beam Search: Duy trì một tập trạng thái tối mà mở rộng có giới hạn ở mỗi bước.  
-![beam](./gif/beam.gif)  
+![beam](./Gif/beam.gif)  
 
 Genetic Algorithm: Sử dụng các nguyên tắc tiến hóa (chọn lọc, lai ghép, đột biến) để tìm kiếm lời giải. 
-![gen](./gif/ga.gif)
+![gen](./Gif/ga.gif)
 
 Biểu đồ so sánh hiệu suất: 
 
-![local](./gif/local.jpg) 
+![local](./Gif/local.jpg) 
 
 Phân tích ưu điểm, nhược điểm và hiệu suất:Biểu đồ cho thấy sự khác biệt rõ giữa bốn thuật toán về tốc độ và khả năng mở rộng. 
 Beam Search (BS) nhanh nhất và mở rộng ít nút nhất, nhưng dễ bỏ lỡ lời giải tối ưu. Hill Climbing (HC) đơn giản, 
@@ -171,17 +171,17 @@ trong môi trường không chắc chắn hoặc có quan sát một phần
 
 AND-OR Search: Được sử dụng cho các bài toán có yếu tố lựa chọn (OR nodes) và yếu tố bắt buộc
  phải hoàn thành tất cả (AND nodes).  
-![ao](./gif/andor.gif)  
+![ao](./Gif/andor.gif)  
 
 Belief State Search: Tìm kiếm trên không gian các "trạng thái niềm tin", trong đó mỗi trạng thái niềm tin là
  một phân phối xác suất trên các trạng thái thực tế có thể xảy ra.
-![bl](./gif/belief.gif)  
+![bl](./Gif/belief.gif)  
 
 Search with Partial Observation: Tìm kiếm trong môi trường chỉ quan sát 1 phần 
-![po](./gif/po.gif)  
+![po](./Gif/po.gif)  
 
 Biểu đồ so sánh hiệu suất:  
-![andor](./gif/andor.jpg) 
+![andor](./Gif/andor.jpg) 
 
 Phân tích ưu điểm, nhược điểm và hiệu suất: Biểu đồ cho thấy AND–OR và Belief đều giải được bài toán nhưng tiêu tốn nhiều thời 
 gian và tài nguyên, trong khi Partial Observable có tốc độ nhanh nhưng không tìm được lời giải. AND–OR hiệu quả hơn khi môi trường 
@@ -208,13 +208,13 @@ Khái niệm bài toán tìm kiếm và lời giải: Trong bài toán bàn ờ 
 về có sẵn, yêu cầu đưa ra 1 bàn cờ có đủ 8 quân xe không được ăn nhau.
 
 Backtracking:  Một dạng tìm kiếm theo chiều sâu có quay lui để khám phá các khả năng.
-![btk](./gif/btk.gif)  
+![btk](./Gif/btk.gif)  
 Forward Checking: Một dạng tìm kiếm cải tiến hơn dụa trên backtracking
-![fwc](./gif/fwc.gif)
+![fwc](./Gif/fwc.gif)
 AC3: Một thuật toán đảm bảo tính nhất quán cung giữa các biến
-![ac3](./gif/ac3.gif)
+![ac3](./Gif/ac3.gif)
 Biểu đồ so sánh hiệu suất:  
-![csp](./gif/csp.jpg)  
+![csp](./Gif/csp.jpg)  
 
 Phân tích ưu điểm, nhược điểm và hiệu suất: Biểu đồ cho thấy Forward Checking là thuật toán có hiệu suất cao nhất, vừa nhanh vừa
 mở rộng ít nút nhờ kiểm tra ràng buộc sớm. Backtracking chậm và tốn tài nguyên nhất do phải quay lui nhiều lần. AC3 tuy kiểm tra nhất 
@@ -236,4 +236,4 @@ Nhược điểm: Chi phí kiểm tra cao hơn → thời gian thực thi lớn 
 Hiệu suất: Mở rộng ít nút như FWD nhưng mất nhiều thời gian hơn do phải cập nhật quan hệ giữa các biến.
 ---
 
-"# 23110132_-ACaNhan_CuoiKi_AI" 
+
